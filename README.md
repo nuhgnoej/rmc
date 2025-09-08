@@ -56,11 +56,11 @@ npm install @tanstack/react-query @tanstack/react-query-devtools react-router-do
   - [x] 컴포넌트에서 스토어 상태 구독 및 사용 (다크 모드 연동)
   - [x] `set` 함수를 이용한 상태 변경 액션 구현
 - **폼 상태 관리 - 핵심 기술: `React Hook Form`**
-  - [ ] `useForm`으로 폼 상태 초기화 및 제출 핸들링
-  - [ ] `register`를 이용해 입력 필드 등록 및 기본 유효성 검사
+  - [x] `useForm`으로 폼 상태 초기화 및 제출 핸들링
+  - [x] `register`를 이용해 입력 필드 등록 및 기본 유효성 검사
 - **드래그 앤 드랍 - 핵심 기술: `@hello-pangea/dnd`**
-  - [ ] `DragDropContext`, `Droppable`, `Draggable` 컴포넌트로 환경 구성하기
-  - [ ] `onDragEnd` 콜백 함수에서 드래그 결과를 **Zustand** 상태에 반영하기
+  - [x] `DragDropContext`, `Droppable`, `Draggable` 컴포넌트로 환경 구성하기
+  - [x] `onDragEnd` 콜백 함수에서 드래그 결과를 **Zustand** 상태에 반영하기
 
 ---
 

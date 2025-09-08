@@ -1,7 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "./App";
 import Home from "./routes/Home";
-import Detail from "./routes/Detail"; // 👈 Detail 컴포넌트 import 추가
+import Detail from "./routes/Detail";
+import Trello from "./routes/Trello";
+import Motion from "./routes/Motion";
 
 const router = createBrowserRouter([
   {
@@ -13,9 +15,11 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: ":stationName", // 👈 상세 페이지 경로 추가
+        path: ":stationName",
         element: <Detail />,
       },
+      { path: "trello", element: <Trello /> },
+      { path: "motion", element: <Motion /> },
     ],
   },
 ]);
