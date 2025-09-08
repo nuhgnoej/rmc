@@ -55,6 +55,18 @@ function Header() {
           >
             Motion
           </NavLink>
+          <NavLink
+            to="/optimization"
+            className={({ isActive }) =>
+              `${navLinkClass} ${
+                isActive
+                  ? "border-primary text-primary"
+                  : "border-transparent hover:text-primary"
+              }`
+            }
+          >
+            Optimization
+          </NavLink>
         </nav>
 
         <button

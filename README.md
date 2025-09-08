@@ -67,10 +67,10 @@ npm install @tanstack/react-query @tanstack/react-query-devtools react-router-do
 ## 🎨 주제 4: 인터랙티브 애니메이션 (모션 프로젝트)
 
 - **애니메이션** - 핵심 기술: `Framer Motion`
-  - [ ] `motion` 컴포넌트와 `animate`, `initial` props를 이용한 기본 애니메이션
-  - [ ] `variants`를 이용해 애니메이션 상태를 선언적으로 관리하기
-  - [ ] `whileHover`, `whileTap` 등 제스처를 이용한 상호작용 애니메이션
-  - [ ] `AnimatePresence`를 이용해 컴포넌트가 사라질 때의 효과(exit) 구현하기
+  - [x] `motion` 컴포넌트와 `animate`, `initial` props를 이용한 기본 애니메이션
+  - [x] `variants`를 이용해 애니메이션 상태를 선언적으로 관리하기
+  - [x] `whileHover`, `whileTap` 등 제스처를 이용한 상호작용 애니메이션
+  - [x] `AnimatePresence`를 이용해 컴포넌트가 사라질 때의 효과(exit) 구현하기
 
 ---
 

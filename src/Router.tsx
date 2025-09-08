@@ -4,6 +4,7 @@ import Home from "./routes/Home";
 import Detail from "./routes/Detail";
 import Trello from "./routes/Trello";
 import Motion from "./routes/Motion";
+import Optimization from "./routes/Optimization";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ const router = createBrowserRouter([
       },
       { path: "trello", element: <Trello /> },
       { path: "motion", element: <Motion /> },
+      { path: "optimization", element: <Optimization /> },
     ],
   },
 ]);
